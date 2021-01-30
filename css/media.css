@@ -1,7 +1,6 @@
 @media (max-width: 992px){
     .col-4{
-        width: 50%;
-        flex-direction: column;
+        min-width: 50%;
         flex-wrap: wrap;
     }
 }
