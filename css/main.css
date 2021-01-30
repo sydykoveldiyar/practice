@@ -129,6 +129,6 @@ img{
     cursor: pointer;
 }
 
-.btn:active{
+.btn:focus{
     background-color: black;
 }
