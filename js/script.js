@@ -1,0 +1,1 @@
+const fillLike = () => document.querySelector('card-head__like').style.cssText = "fill: white";

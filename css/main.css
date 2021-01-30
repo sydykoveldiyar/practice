@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.row{
+    display: flex;
+    margin: 0 -20px;
+}
+
+.col-4{
+    width: 33.3333%;
+    padding: 0 20px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+.cats__card{
+    background-color: #f3f3f3;
+}
+
+.cats__card-head{
+    position: relative;
+}
+
+.card-head__discount{
+    position: absolute;
+    top: 34px;
+    left: 37px;
+}
+
+.card-head__like{
+    position: absolute;
+    top: 34px;
+    right: 32px;
+}
+
+.card-head__like:hover{
+    cursor: pointer;
+}
+
+.cats__content{
+    margin-top: 88px;
+}
+
+.cats__cards-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 29px 0 22px 0;
+}
+
+.card-body{
+    margin-left: 29px;
+    padding-bottom: 29px;
+    position: relative;
+}
+
+.card__info-item{
+    margin-right: 20px;
+}
+
+.cat-age{
+    flex-direction: column;
+}
+
+.card-content h4{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.cat-color{
+    line-height: 15px;
+}
+
+.cat-color:before{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 26px;
+    background-color: #6EBBD3;
+    left: 0;
+}
+
+.cats__card-info{
+    align-items: center;
+    margin-left: 18px;
+    margin-bottom: 16px;
+}
+
+.cats__cards-price{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.btn{
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 22px 0;
+    background-color: #6EBBD3;
+    border: 1px;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
